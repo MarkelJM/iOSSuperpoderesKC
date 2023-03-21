@@ -16,8 +16,6 @@
 		D35AF5EE29C265F900D6C19F /* proyectoHerosKCMultiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AF5ED29C265F900D6C19F /* proyectoHerosKCMultiUITests.swift */; };
 		D35AF5F029C265F900D6C19F /* proyectoHerosKCMultiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AF5EF29C265F900D6C19F /* proyectoHerosKCMultiUITestsLaunchTests.swift */; };
 		D35AF60329C2682F00D6C19F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AF60229C2682F00D6C19F /* LoginView.swift */; };
-		D35AF60429C2682F00D6C19F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AF60229C2682F00D6C19F /* LoginView.swift */; };
-		D35AF60529C2682F00D6C19F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AF60229C2682F00D6C19F /* LoginView.swift */; };
 		D35AF60B29C26AFE00D6C19F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D35AF60F29C26AFE00D6C19F /* Localizable.strings */; };
 		D35AF60C29C26AFE00D6C19F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D35AF60F29C26AFE00D6C19F /* Localizable.strings */; };
 		D35AF60D29C26AFE00D6C19F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D35AF60F29C26AFE00D6C19F /* Localizable.strings */; };
@@ -25,6 +23,17 @@
 		D35AF61329C26CA900D6C19F /* keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AF61129C26CA900D6C19F /* keychain.swift */; };
 		D35AF61429C26CA900D6C19F /* keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AF61129C26CA900D6C19F /* keychain.swift */; };
 		D35AF61729C26E3700D6C19F /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D35AF61629C26E3700D6C19F /* KeychainSwift */; };
+		D3C0B50F29CA331500071A47 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B50E29CA331500071A47 /* RootViewModel.swift */; };
+		D3C0B51129CA332900071A47 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B51029CA332900071A47 /* StatusModel.swift */; };
+		D3C0B51329CA36E600071A47 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B51229CA36E600071A47 /* BaseNetwork.swift */; };
+		D3C0B51529CA4AF500071A47 /* kcPersistentKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B51429CA4AF500071A47 /* kcPersistentKeyChain.swift */; };
+		D3C0B51729CA4DA300071A47 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B51629CA4DA300071A47 /* RootView.swift */; };
+		D3C0B51A29CA4FA700071A47 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B51929CA4FA700071A47 /* LoaderView.swift */; };
+		D3C0B51C29CA51C600071A47 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B51B29CA51C600071A47 /* ErrorView.swift */; };
+		D3C0B51F29CA552300071A47 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B51E29CA552300071A47 /* HomeView.swift */; };
+		D3C0B52229CA582800071A47 /* HeroesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B52129CA582800071A47 /* HeroesView.swift */; };
+		D3C0B52429CA585900071A47 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B52329CA585900071A47 /* HeroModel.swift */; };
+		D3C0B52729CA5ACD00071A47 /* viewModelHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0B52629CA5ACD00071A47 /* viewModelHeroes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,17 @@
 		D35AF60E29C26AFE00D6C19F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D35AF61029C26B0300D6C19F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D35AF61129C26CA900D6C19F /* keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keychain.swift; sourceTree = "<group>"; };
+		D3C0B50E29CA331500071A47 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		D3C0B51029CA332900071A47 /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
+		D3C0B51229CA36E600071A47 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
+		D3C0B51429CA4AF500071A47 /* kcPersistentKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kcPersistentKeyChain.swift; sourceTree = "<group>"; };
+		D3C0B51629CA4DA300071A47 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D3C0B51929CA4FA700071A47 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		D3C0B51B29CA51C600071A47 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		D3C0B51E29CA552300071A47 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D3C0B52129CA582800071A47 /* HeroesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesView.swift; sourceTree = "<group>"; };
+		D3C0B52329CA585900071A47 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		D3C0B52629CA5ACD00071A47 /* viewModelHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModelHeroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +176,12 @@
 		D35AF5FC29C2676000D6C19F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D3C0B52029CA581900071A47 /* Heroes */,
+				D3C0B51D29CA550B00071A47 /* Home */,
+				D3C0B51829CA4F8F00071A47 /* Tools */,
+				D35AF60229C2682F00D6C19F /* LoginView.swift */,
 				D35AF60129C267BB00D6C19F /* Login */,
+				D3C0B51629CA4DA300071A47 /* RootView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +189,8 @@
 		D35AF5FD29C2676900D6C19F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D3C0B52529CA5AB200071A47 /* Heroes */,
+				D3C0B50D29CA32F700071A47 /* Main */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -172,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				D35AF61129C26CA900D6C19F /* keychain.swift */,
+				D3C0B51429CA4AF500071A47 /* kcPersistentKeyChain.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -179,6 +207,7 @@
 		D35AF5FF29C2679F00D6C19F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D3C0B51229CA36E600071A47 /* BaseNetwork.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -186,6 +215,8 @@
 		D35AF60029C267AB00D6C19F /* Modelos */ = {
 			isa = PBXGroup;
 			children = (
+				D3C0B51029CA332900071A47 /* StatusModel.swift */,
+				D3C0B52329CA585900071A47 /* HeroModel.swift */,
 			);
 			path = Modelos;
 			sourceTree = "<group>";
@@ -193,9 +224,49 @@
 		D35AF60129C267BB00D6C19F /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF60229C2682F00D6C19F /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		D3C0B50D29CA32F700071A47 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0B50E29CA331500071A47 /* RootViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D3C0B51829CA4F8F00071A47 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0B51929CA4FA700071A47 /* LoaderView.swift */,
+				D3C0B51B29CA51C600071A47 /* ErrorView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D3C0B51D29CA550B00071A47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0B51E29CA552300071A47 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D3C0B52029CA581900071A47 /* Heroes */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0B52129CA582800071A47 /* HeroesView.swift */,
+			);
+			path = Heroes;
+			sourceTree = "<group>";
+		};
+		D3C0B52529CA5AB200071A47 /* Heroes */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0B52629CA5ACD00071A47 /* viewModelHeroes.swift */,
+			);
+			path = Heroes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,11 +409,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C0B51529CA4AF500071A47 /* kcPersistentKeyChain.swift in Sources */,
+				D3C0B51A29CA4FA700071A47 /* LoaderView.swift in Sources */,
+				D3C0B52729CA5ACD00071A47 /* viewModelHeroes.swift in Sources */,
+				D3C0B52229CA582800071A47 /* HeroesView.swift in Sources */,
+				D3C0B51F29CA552300071A47 /* HomeView.swift in Sources */,
 				D35AF5CD29C265F800D6C19F /* proyectoHerosKCMultiApp.swift in Sources */,
+				D3C0B51329CA36E600071A47 /* BaseNetwork.swift in Sources */,
 				D35AF5D229C265F800D6C19F /* proyectoHerosKCMulti.xcdatamodeld in Sources */,
+				D3C0B51729CA4DA300071A47 /* RootView.swift in Sources */,
 				D35AF60329C2682F00D6C19F /* LoginView.swift in Sources */,
+				D3C0B51C29CA51C600071A47 /* ErrorView.swift in Sources */,
+				D3C0B51129CA332900071A47 /* StatusModel.swift in Sources */,
 				D35AF5CF29C265F800D6C19F /* Persistence.swift in Sources */,
+				D3C0B50F29CA331500071A47 /* RootViewModel.swift in Sources */,
 				D35AF61229C26CA900D6C19F /* keychain.swift in Sources */,
+				D3C0B52429CA585900071A47 /* HeroModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +432,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35AF60429C2682F00D6C19F /* LoginView.swift in Sources */,
 				D35AF61329C26CA900D6C19F /* keychain.swift in Sources */,
 				D35AF5E429C265F900D6C19F /* proyectoHerosKCMultiTests.swift in Sources */,
 			);
@@ -360,7 +441,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35AF60529C2682F00D6C19F /* LoginView.swift in Sources */,
 				D35AF61429C26CA900D6C19F /* keychain.swift in Sources */,
 				D35AF5EE29C265F900D6C19F /* proyectoHerosKCMultiUITests.swift in Sources */,
 				D35AF5F029C265F900D6C19F /* proyectoHerosKCMultiUITestsLaunchTests.swift in Sources */,

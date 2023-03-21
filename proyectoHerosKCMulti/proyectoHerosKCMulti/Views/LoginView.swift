@@ -9,6 +9,13 @@ import SwiftUI
 
 struct LoginView: View {
     
+    @EnvironmentObject  var rootviewModel:  RootViewModel
+
+    /*
+        Le digo el tipo y el sistema va a buscarlo al entorno de objetos.
+     
+     */
+    
     @State private var email = ""
     @State private var password = ""
     
@@ -59,7 +66,7 @@ struct LoginView: View {
                         .id(2)// for UI testing
                     //boton
                     Button {
-                        //todo: login
+                        rootviewModel.login(user: email, password : password)
                     } label: {
                         Text("Entrar")
                             .font(.title)

@@ -8,7 +8,7 @@
 import Foundation
 import KeychainSwift
 
-
+@discardableResult
 func saveKV(key: String, value : String) -> Bool {
     if let data = value.data(using: .utf8){
         let keychain = KeychainSwift()
